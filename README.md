@@ -8,6 +8,8 @@ Displays images from the unsplash api: https://unsplash.com/
 
 <img src="https://github.com/TIKramer/image-carousel-ld/blob/main/screenshots/p1.png" width='25%' height="25%">
 <img src="https://github.com/TIKramer/image-carousel-ld/blob/main/screenshots/p2.png" width='25%' height="25%">
+<img src="https://github.com/TIKramer/image-carousel-ld/blob/main/screenshots/p3.png" width='25%' height="25%">
+
 </p>
 <br/>
 

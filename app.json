@@ -3,7 +3,6 @@
     "name": "image-carousel-ld",
     "slug": "image-carousel-ld",
     "version": "1.0.0",
-    "orientation": "all",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -24,10 +23,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.tikramer.imagecarouselld"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cfe1c868-87fa-4606-b780-97e4a7b97dd0"
+      }
     }
   }
 }

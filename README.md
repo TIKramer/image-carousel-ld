@@ -20,7 +20,7 @@ run- $npm install
 -can take some time as you have to install react, expo, reactnative..
 
 if you have an android device you can install the app with this .apk
-https://expo.dev/artifacts/eas/tPWFUCvZqzw4x2beE8e8U4.aab
+https://expo.dev/artifacts/eas/tr9fbhSvKe83D7SiPz8tSU.apk
 
 ### Running:
 $npm start  

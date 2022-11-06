@@ -4,9 +4,11 @@ Made this app as a take home assignment - part of interview process for Leginell
 Displays images from the unsplash api: https://unsplash.com/
 ## Spec
 <br/>
-<img src="https://github.com/TIKramer/image-carousel-ld/blob/master/Scroll/main.gif" width='30%' height="30%">
+<img src="https://github.com/TIKramer/image-carousel-ld/blob/master/screenshots/p1.png" width='30%' height="30%">
 <br/>
-
+<br/>
+<img src="https://github.com/TIKramer/image-carousel-ld/blob/master/screenshots/p2.png" width='30%' height="30%">
+<br/>
 ## Getting started
 ### Installing:
 run- $npm install  
@@ -26,17 +28,31 @@ App.jsx
 which loads a grid component..
 You can see the images - 30 load at a time - scroll down to load more…
 <br/>
-<img src="https://github.com/TIKramer/image-carousel-ld/blob/master/Scroll/main.gif" width='30%' height="30%">
+<img src="https://github.com/TIKramer/image-carousel-ld/blob/master/screenshots/scroll.gif" width='30%' height="30%">
 <br/>
 
 
 Click one to open image modal – displays the image and small amount of information..
 
 <br/>
-<img src="https://github.com/TIKramer/image-carousel-ld/blob/master/Scroll/main.gif" width='30%' height="30%">
+<img src="https://github.com/TIKramer/image-carousel-ld/blob/master/screenshots/swipe.gif" width='30%' height="30%">
 <br/>
 
 click the cross to dismiss or swipe on the image to go forward to backwards..
+
+
+Also works horizontal:
+
+<br/>
+<img src="https://github.com/TIKramer/image-carousel-ld/blob/master/screenshots/hscroll.gif" width='30%' height="30%">
+<br/>
+<br/>
+<img src="https://github.com/TIKramer/image-carousel-ld/blob/master/screenshots/hswipe.gif" width='30%' height="30%">
+<br/>
+
+
+
+
 
 <br/>
 

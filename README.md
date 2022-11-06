@@ -19,14 +19,14 @@ Displays images from the unsplash api: https://unsplash.com/
 run- $npm install  
 -can take some time as you have to install react, expo, reactnative..
 
-if you have an android device you can install the app with this .apk, beaware there is only limited usage of api - 50 per day.
+if you have an android device you can install the app with this .apk
 https://expo.dev/artifacts/eas/tPWFUCvZqzw4x2beE8e8U4.aab
 
 ### Running:
 $npm start  
 
-Good idea to use your own api key for best experience - can only use 50 calls per day
-Change the api key in the config file.
+If you have issues with images change the api key - can only use 50 calls per hours
+you can change the api key in the config file.
 
 ## Usage:
 App.jsx 

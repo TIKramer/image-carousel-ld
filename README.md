@@ -1,8 +1,11 @@
 # image-carousel-ld
  
-Project to practice my react native :)
 Made this app as a take home assignment - part of interview process for LeginellaDosser
 Displays images from the unsplash api: https://unsplash.com/
+## Spec
+<br/>
+<img src="https://github.com/TIKramer/image-carousel-ld/blob/master/Scroll/main.gif" width='30%' height="30%">
+<br/>
 
 ## Getting started
 ### Installing:

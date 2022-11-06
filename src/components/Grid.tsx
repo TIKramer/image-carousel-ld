@@ -15,6 +15,7 @@ import * as ScreenOrientation from 'expo-screen-orientation';
 import { COLUMNS_HORIZONTAL, COLUMNS_VERTICAL, THUMB_SPACING, GRID_H_PADDING,DEFAULT_PAGE, NO_IMAGE} from "../constants/grid";
 import { MaterialIcons } from '@expo/vector-icons';
 import { DefaultListEmpty } from "./DefaultListEmpty";
+import { Loader } from "./Loader";
 
 /**
  * Grid
@@ -71,7 +72,6 @@ export const Grid = ({
 
   const calculateThumbWidth = () =>
   {
-    console.log('Ran!')
     const { width: windowWidth } = Dimensions.get("window");
     const galleryWidth = windowWidth - 2 * GRID_H_PADDING;
     const totalSpacing = (THUMB_PER_ROW - 1) * THUMB_SPACING;
@@ -105,7 +105,7 @@ export const Grid = ({
         keyExtractor={(item, index) => item.id + index}
         onEndReached={() => _handleUpdateImage()}
         onEndReachedThreshold={0.5}
-        ListEmptyComponent={<DefaultListEmpty text={'No Images..'}/> }
+        ListEmptyComponent={ loading ?  <Loader size={'small'} isLoading={loading}/> : <DefaultListEmpty text={'No Images..'}/> }
         renderItem={({ item, index }) =>
           <TouchableRipple style={{ padding: THUMB_SPACING / 2 }} onPress={() => setSelectedImgIdx(index)}>
             <Image uri={item.urls.thumb}

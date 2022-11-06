@@ -43,7 +43,7 @@ Click one to open image modal – displays the image and small amount of informa
 <img src="https://github.com/TIKramer/image-carousel-ld/blob/main/screenshots/swipe.gif" width='25%' height="25%">
 <br/>
 
-click the cross to dismiss or swipe on the image to go forward to backwards..
+click the cross to dismiss or swipe on the image to go forward or backwards..
 
 
 Also works horizontal:

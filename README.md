@@ -1,6 +1,6 @@
 # image-carousel-ld
  
-Made this app as a take home assignment - part of interview process for LeginellaDosser
+Made this app as a take home assignment - part of interview process for LegionellaDossier
 Displays images from the unsplash api: https://unsplash.com/
 ## Spec
 <br/>
